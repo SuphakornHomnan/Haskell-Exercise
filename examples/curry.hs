@@ -1,0 +1,3 @@
+-- g . f = \x -> g (f x)
+-- (g . f) x = g (f x)
+-- function is value ให้มองว่าfunc ก็คือค่าๆนึง

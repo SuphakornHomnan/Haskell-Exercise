@@ -1,0 +1,24 @@
+how should we define equality for binary trees?
+ans => yes you can define
+ถ้าทรีทั้งคู่เป็นempty ก็ return true 
+ถ้ามีทรีต้นนึงเป็นemptyอีกต้นไม่เป็น ก็ return false
+ถ้าทรีทั้งคู่ไม่เป็นempty ก็นำมาเช็คค่าrootว่าเท่ากันไหมและทำการrecursiveเช็คค่าทางซ้ายและทางขวาของทรีด้วยว่าเท่ากันไหม ถ้าเท่ากันหมดให้ return true
+ถ้าไม่เข้าสักเงื่อนไขที่กล่าวไปข้างต้นให้ return false
+
+when are two binary trees equal?
+ans => เมื่อทั้งทั้งทรีมีโครงสร้างสมาชิกเหมือนกันทุกๆnode
+
+how should we define equality for lists?
+ans => yes you can define
+when are two lists equal?
+ans => เมื่อlistมีขนาดเท่ากันและมีค่าในแต่ละindexที่เท่ากัน
+
+how should we define equality for pairs?
+ans => yes you can define
+when are two pairs equal?
+ans => เมื่อคู่อันดับเท่ากันที่ตำแหน่งเดียวกัน
+how should we define equality for Maybe?
+ans=> yes you can define
+when are two Maybe's equal?=> เมื่อ type หลัง maybe เป็นtypeเดียวกัน และผลลัพธ์จากmaybeต้องมีค่าเท่ากัน ผลลัพธ์สุดท้ายจึงจะเท่ากัน
+
+
