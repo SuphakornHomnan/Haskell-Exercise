@@ -2,7 +2,7 @@
 
 [![image](https://www.dervis.no/assets/images/posts/haskell.png)]()
 
-- By my professor : Chinawat Isradisaikul
+- By my professor : [Chinawat Isradisaikul](https://www.facebook.com/chinissai)
 - 2nd Semester 2020
 
   - This responsibility is about homework **Haskell** **programming** based on functional knowledge
