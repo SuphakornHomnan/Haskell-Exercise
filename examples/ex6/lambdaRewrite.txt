@@ -1,0 +1,6 @@
+Question: rewrite (\l -> length l < 3) without lambdas (\)
+
+ANS:
+
+((<3).length)
+type : Foldable t => t a -> Bool
