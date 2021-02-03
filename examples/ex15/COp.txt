@@ -1,0 +1,7 @@
+ไม่เหมาะสม เพราะ ผิดกฎทั้งสองข้อ ข้อแรกคือ fmap id = id 
+แต่ผลลัพธ์ที่ได้จาก COp กลับเป็นค่าใหม่ CVal 5 "nice" => CVal 6 "nice"
+และผิดกฎข้อที่2 ตรงที่ fmap (h . g) /= fmap h . fmap g
+fmap (odd.(+1)) (CVal 7 8) => CVal 8 True
+fmap odd . fmap (+1) $ (CVal 7 8) => CVal 9 True
+
+จำนวน transformation คือ 1
